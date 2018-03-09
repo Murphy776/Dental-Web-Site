@@ -1,0 +1,147 @@
+<!-- Comments     
+-->
+<DOCTYPE! html>
+<head>
+	<title>Contact Orland Dental Center Dentist, Dental Care, Dental Cleaning, Dental Care</title>
+        <meta name=”description” content=”Orland Dental Center a family oriented dental practice Daniel J Wols and William A Seper providing provide the highest quality dentistry in a comfortable environment where you can feel at ease. Giving you an honest evaluation of your dental condition so you can make an informed decision on the best dental treatment for you. Located at 9661 143rd St, Orland Park, IL 60462 > 
+	<meta charset= "UTF-8"></meta>
+	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="mondernizr-1.5.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset.css" rel="sylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="@media_Query/mediaquery768.css" rel="stylesheet" type="text/css" />
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<link rel="icon" type="image/png" href="images/dental_icon.jpg"/>
+	
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<img src="images/ODC_logo_nobg.png" alt="Orland Dental Center Logo" width="225px" />
+                        <h1> Orland Dental Center</h1>
+                        <h4><span id="drnames">William A. Seper D.D.S.</br>
+                            Daniel J. Wols D.D.S.</span></h4>
+			<h2>Call 708-403-0100</h2><br/>
+			<h3>or Send us an <a href="#form">email</a></h3>
+			
+			<div id="info">
+				<p>9661 W. 143rd St.</p>
+				<p>Orland Park, IL 60462</p>
+				
+			</div>
+			
+		</div>
+		
+		<div id="nav">
+			<a href="index.html">Home</a>
+			<a href="care.html">Dental Care</a>
+			<a href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a>
+			<a href="service.html">Insurance</a>
+			<a href="forms.html">Forms</a>
+		</div>
+		
+<div id="map">
+			<img src="images/png/Capture2.PNG" alt="Map" />
+			<div id="form">
+				<form action="Form_Validation.php" method="post" name="myForm" id="myForm" >
+					<fieldset id="personal">
+						<legend>Personal Info:</legend>
+					<br/>
+					<label>Name:</label>		
+						<input type="text" name="name" value="" required />
+					<br/>
+					<label>Address:</label>
+						<input type="text" name="address" value="" required />
+					<br/>
+					<label>City:</label>
+						<input type="text" name="city" value="" required />
+					<br/>
+					<label>State:</label>   
+						<input type="text" name="state" value="" required />
+					<br/>
+					<label>Zip:</label>     
+						<input type="text" name="zip" value="" required />
+					<br/>
+					<label>Phone:</label>
+						<input type="text" name="phone" value="" required />
+					<br/>
+					<label>Email:</label> 
+						<input type="text" name="email" value="" required />
+					<br/><br/>
+					<label>Comments:</label>
+						<textarea rows="5" cols="27" placeholder="Reason for your visit?" ></textarea>
+                                        <br/><br/>
+                                        <div id="recaptcha_element">
+					<div class="g-recaptcha" data-sitekey="6LePfBMTAAAAANIf-axMKy3VdFyDo35dmUWe6NRv"></div>
+					</div>
+
+					</fieldset>
+
+					<fieldset>
+					<legend>Appointment Info:</legend>
+					<br/>
+					<label><span class="form_item">Are you currently a Patient?</span></label>
+						<input type="radio" name="patient" value="yes">Yes</input>
+						<input type="radio" name="patient" value="no">No</input> 
+			
+					<br/><br/>
+			
+					<label><span class="form_item">Best time to call?</span></label><br/>
+						<input type="radio" name="callTime" value="morning" >Morning</input>
+						<input type="radio" name="callTime" value="noon" >Noon</input>
+						<input type="radio" name="callTime" value="afternoon" >Afternoon</input>
+						<input type="radio" name="callTime" value="evening" >Evening</input>
+						
+					<br/><br/>
+						
+					<label><span class="form_item">Preferred Day of the week for the Appointment?</span></label><br/>
+						<input type="radio" name="apptDay" value="mon">Monday</input>
+						<input type="radio" name="apptDay" value="tue">Tuesday</input>
+						<input type="radio" name="apptDay" value="wed">Wednesday</input>
+						<input type="radio" name="apptDay" value="thur">Thurdsay</input>
+						
+						
+					<br/><br/>
+						
+					<label><span class="form_item">Preferred Time of the day for the Appointment?</span></label><br/>
+						<input type="radio" name="apptTime" value="morning">Morning</input>
+						<input type="radio" name="apptTime" value="noon">Noon</input>
+						<input type="radio" name="apptTime" value="afternoon">Afternoon</input>
+						<input type="radio" name="apptTime" value="evening">Evening</input>
+						
+					<br/><br/>
+						
+					
+						
+					<input onclick="reset()" type="button" value="Reset" /> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<input onclick ="checkForm()" type="submit" value="Submit" /> <br/>
+						
+			
+					</fieldset>
+					
+					
+				</form>
+			</div>
+                              <div id="map_frame"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2982.1879459525876!2d-87.8591558494109!3d41.63006878877711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e4082dc8caea3%3A0xb04ca0105a9c842d!2s9661+143rd+St%2C+Orland+Park%2C+IL+60462!5e0!3m2!1sen!2sus!4v1450568652100" width="400" height="350" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+
+		</div>
+	
+	
+	
+	
+	
+	<div id="footer">
+			<div id="footer_wrapper">
+				
+					<img src="images/ODC_logo_nobg.png" alt="ODC Logo" width="225px"  />	
+					
+					<p id="footmission">Your Smile is...</br>Our Top Priority! </p>
+				
+
+				
+				</div>
+				<address>Orland Dental Center 9661 W. 143rd St Orland Park,IL 60462
+				(708) 403-0100 &copy; Orland Dental Center 2015</address>
+			</div>

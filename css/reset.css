@@ -1,0 +1,31 @@
+/*
+ Orland Dental
+   
+   Author:  Jeff Becker
+   Date:    12/10/2015
+
+   Filename:         reset.css
+   Supporting Files: i
+
+*/
+
+article, aside, footer, header, section, nav {
+	display: block;
+}
+
+/* Setting page default element styles */
+body * {
+	font-family: Arial, Times New Roman, sans-sarif;
+	font-size: 100%;
+	font-weight: normal;
+	line-height: 1.2em;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	
+}
+
+
+
+
+

@@ -1,0 +1,69 @@
+/*
+   New Perspectives on HTML and CSS
+   Tutorial 5
+
+
+   Tables Style Sheet
+   Author:  Jeff Becker
+   Date:   11/27/15
+
+   Filename:         beertables.css
+   Supporting Files: index.htm, ourbeer.htm, beer101.htm, aboutus.htm,contact.htm
+   reset.css, styles2.css
+
+*/
+
+
+table.operatinghours {
+	border: 10px outset rgb(0, 0, 0);
+	border-collapse: collapse;
+	font-family: Arial, Helvetica, sans-sarif;
+	font-size: 0.75em;
+	width: 250px;
+	clear: both;
+	float: left;
+	position: relative;
+	padding-bottom: 20px;
+}
+
+table.operatinghours th,  table.operatinghours td {
+	border: 1px solid black;
+}
+
+
+table.operatinghours thead {
+	background-color: blue;
+	color: #EDD507;
+}
+
+table.operatinghours thead th { /*Changed from tr to th */
+	height: 50px;
+}
+
+
+table.operatinghours tbody th { /* changed from tr to th */
+	height: 40px;
+}
+
+table.operatinghours tbody td {
+	padding: 5px;
+	vertical-align: top;
+} 
+
+
+table.operatinghours col.firstCol {
+	width: 15%;
+	margin: auto;
+}
+
+
+table.operatinghours col.dayCols {
+	width: 13%;
+}
+
+
+table.operatinghours caption {
+	caption-side: bottom;
+	text-align: right;
+}
+

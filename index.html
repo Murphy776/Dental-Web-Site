@@ -1,0 +1,195 @@
+<!-- Comments     
+-->
+<DOCTYPE! html>
+<head>
+	<title>Orland Dental Center Dentist, Dental Care, Dental Cleaning, Dental Care</title>
+        <meta name=”description” content=”Orland Dental Center a family oriented dental practice Daniel J Wols and William A Seper providing provide the highest quality dentistry in a comfortable environment where you can feel at ease. Giving you an honest evaluation of your dental condition so you can make an informed decision on the best dental treatment for you. Located at 9661 143rd St, Orland Park, IL 60462 > 
+	<meta charset= "UTF-8"></meta>
+	<meta name="viewport" content="width=device-width" initial-scale="1">
+	<script src="script.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<link href="mondernizr-1.5.css" rel="stylesheet" type="text/css" />
+	<link href="css/reset.css" rel="sylesheet" type="text/css" />
+	<link href="css/styles.css" rel="stylesheet" type="text/css" />
+	<link href="@media_Query/mediaquery768.css" rel="stylesheet" type="text/css" />
+	<link href="css/mediaquery400.css" rel="stylesheet" type="text/css" />
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<link rel="icon" type="image/png" href="images/dental_icon.jpg"/>
+	<link href='https://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Alex+Brush' rel='stylesheet' type='text/css'>
+	
+	
+	<script>
+		$(document).ready(function(){
+			$("#fader img:not(:first)").hide();
+			$("#fader img").css('position', 'absolute');
+			
+			var pause = false;
+			
+			function fadeNext(){
+				$("#fader img").first().fadeOut(2000).appendTo($('#fader'));
+				$("#fader img").first().fadeIn();
+			}
+			
+			function fadePrev(){
+				$("#fader img").first().fadeOut(8000);
+				$("#fader img").last().prependTo($('#fader')).fadeIn();
+			}
+			
+			var rotate = setInterval(fadeNext, 6000);
+		
+		});
+		
+		function reset(){
+			
+				$('#form')[0].reset();
+		
+		};
+	</script>
+	
+	
+</head>
+<body>
+	<div id="wrapper">
+		<div id="header">
+			<img src="images/ODC_logo_nobg.png" alt="Orland Dental Center Logo" width="225px" />
+                        <h1> Orland Dental Center</h1>
+                        <h4><span id="drnames">William A. Seper D.D.S.</br>
+                            Daniel J. Wols D.D.S.</span></h4>
+			<h2>Call 708-403-0100</h2><br/>
+			<h3>or Send us an <a href="contact.html">email</a></h3>
+			
+			<div id="info">
+				<p>9661 W. 143rd St.</p>
+				<p>Orland Park, IL 60462</p>
+				
+			</div>
+			
+		</div>
+		
+		<div id="nav">
+			<a href="index.html">Home</a>
+			<a href="care.html">Dental Care</a>
+			<a href="about.html">About Us</a>
+			<a href="contact.html">Contact Us</a>
+			<a href="service.html">Insurance</a>
+			<a href="forms.html">Forms</a>
+		</div>
+		<div id="image_content">
+			<div id="fader">
+				<img src="images/smile.jpg" alt="Smile" />
+				<img src="images/girls1.jpg" alt="Happy Girls" />
+				<img src="images/couple1.jpg" alt="Smiling couple" />
+				<img src="images/american_couple.jpg" alt="American Couple" />
+				<img src="images/beautiful.jpg" alt="beautiful girl" />
+				<img src="images/happy_girl.jpg" alt="Happy Girl" />
+			</div>
+		</div>
+		
+		<div id="mission">
+			<h1>Welcome</h1>
+			<br/>
+			<!--<h2>Our Mission:</h2>-->
+			<p>At Orland Dental Center our mission is to provide the highest quality dentistry in a comfortable 
+            environment where you can feel at ease. Both of our doctors have over twenty years of experience, 
+            with a combined experience of over fifty years. </p> </br>
+            
+            <p>We will give you an honest evaluation of your dental 
+            condition so you can make an informed decision on the best dental treatment for you. Our practice 
+            sees patients aged three to one hundred and includes families of four generations who continue to 
+            see us due to the trust we've earned and the consistent excellent dental care they have received 
+            over the years. Our goal is to become that family friend that you know and trust.</p> </br>
+             
+             <p>We would welcome the opportunity to provide you with exceptional dental care and include
+             you as part of our extended dental family. </p> </br>
+		</div>
+		
+		<!--<div id="show_services_33003">
+			<div id="services">
+				<br/>
+				<div id="service1">
+					<img src="images/png/dentist16_white.png" width="50px" height="65px" alt="tooth" />
+					<br/><br/>
+					<h3>Dental Implants</h3>
+					<br/>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+					
+					<a href="#">More info</a>
+				</div>
+				<div id="service2">
+					<img src="images/png/dentists_white.png" width="50px" height="65px" alt="tooth" />
+					<br/><br/>
+					<h3>Cosmetic Procedures</h3>
+					<br/>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. </p>
+				
+					<a href="#">More info</a>
+					
+				</div>
+				<div id="service3">
+					<img src="images/png/toothbrush_white.png" width="50px" height="65px" alt="tooth" />
+					<br/><br/>
+					<h3>Long Term Health with Proactive Dentistry</h3>
+					<br/>
+					<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante.</p>
+				
+					<a href="#">More info</a>
+					
+				</div>
+
+			</div>	
+		</div>-->
+		
+		
+		
+		<!--<div id="testimonials">
+			<div id="infinte_wrapper" class="first" >
+			</div>	
+			<div id="testimonials_wrapper">
+			<h3>Client Testimonials</h3>
+			<br/>
+				<p>I just started going to Dr. Wols this year after my dentist retired.  
+				He is very good!  He spotted a couple problems my other dentist totally 
+				missed a few months earlier.  He has a good eye for locating decay problems, 
+				however, he does not go to extreme treatment or referrals, unless necessary.  
+				He works very fast and is considerate of his patients.  The staff is friendly, 
+				helpful and accommodating.</p>
+			<br/>	
+				<h4>Diane F.</h4>
+			</div>
+			
+		</div>-->
+		
+		<div id="footer">
+			<div id="footer_wrapper">
+				
+					<img src="images/ODC_logo_nobg.png" alt="ODC Logo" width="200px"  />	
+					
+					<table id="hours">
+						<tr>
+							<th>
+								<h1>Hours of Operations:</h1>
+							</th>
+						</tr>
+						<tr>							
+							<td>Monday -- 9am to 5pm</td>
+							<td>Tuesday -- 9am to 5pm</td>
+							<td>Wednesday -- 9am to 5pm</td>
+						<tr>
+							<td>Thursday -- 9am to 5pm</td>
+							<td>Friday -- 9am to 5pm</td>
+							<td>Saturday -- 9am to 5pm</td>
+						</tr>
+						<tr>
+							<td>Sunday -- 9am to 5pm</td>
+						</tr>
+						
+				</div>
+				<address>Orland Dental Center 9661 W. 143rd St Orland Park,IL 60462
+				(708) 403-0100 &copy; Orland Dental Center 2015</address>
+			</div>
+		
+	</div>
+
+</body>
+</html>
